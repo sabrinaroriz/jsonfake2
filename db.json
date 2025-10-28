@@ -12,5 +12,12 @@
     "faturas": [
         {"id": 1, "idcliente": 1, "idplano": 2, "datavencimento": "10/10/2025", "datapagamento": "09/10/2025", "em_atraso": "não", "dias_atraso": 0, "multa": 0.00},
         {"id": 2, "idcliente": 2, "idplano": 2, "datavencimento": "05/10/2025", "datapagamento": "10/10/2025", "em_atraso": "sim", "dias_atraso": 5, "multa": 25.00}
+    ],
+
+    "treinos":[
+        {"id": 1, "idcliente": 1, "idfuncionario": 2, "datatreino": "10/10/2025"},
+        {"id": 2, "idcliente": 2, "idfuncionario": 2, "datatreino": "11/10/2025"}
+
+
     ]
 }
