@@ -1,7 +1,7 @@
 {
     "aulas": [
-        {"id": 1, "nome": "dança", "funcionario": {"id": 1}, "data": "25/11/2025", "horario": "15:30", "Status": "Ativo"},
-        {"id": 2, "nome": "spinning", "funcionario": {"id": 2}, "data": "26/11/2025", "horario": "10:00", "Status": "Ativo"}
+        {"id": 1, "nome": "dança", "funcionario": {"id": 1}, "data": "25/11/2025", "horario": "15:30", "status": "Ativo"},
+        {"id": 2, "nome": "spinning", "funcionario": {"id": 2}, "data": "26/11/2025", "horario": "10:00", "status": "Ativo"}
     ],
 
     "equipamentos": [
