@@ -9,14 +9,15 @@
         {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "05/08/2025", "disponivel": "não", "local": "sala de manutenção"}
     ],
 
-    "faturas": [
-        {"id": 1, "cliente": { "id": 1,"nome": "Mateus Bruno"}, "idplano": 2, "datavencimento": "10/10/2025", "datapagamento": "09/10/2025", "ematraso": "não", "diasatraso": 0, "multa": 0.00},
-        {"id": 2, "cliente": { "id": 2,"nome": "Pedro Fonseca"}, "idplano": 1, "datavencimento": "05/10/2025", "datapagamento": "10/10/2025", "ematraso": "sim", "diasatraso": 5, "multa": 25.00}
-    ],
+   "faturas": [
+  {"id": 1, "cliente": { "id": 1, "nome": "Mateus Bruno" }, "idplano": 2, "datavencimento": "10/10/2025", "datapagamento": "09/10/2025", "ematraso": "não", "diasatraso": 0, "multa": 0.00},
+  {"id": 2, "cliente": { "id": 2, "nome": "Pedro Fonseca" }, "idplano": 1, "datavencimento": "05/10/2025", "datapagamento": "10/10/2025", "ematraso": "sim", "diasatraso": 5, "multa": 25.00}
+],
+
 
    "treinos": [
-      {"id": 1, "cliente": { "id": 1,"nome": "Mateus Bruno" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "10/10/2025"},
-      {"id": 2, "cliente": { "id": 2,"nome": "Pedro Fonseca"}, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "11/10/2025"}
+  {"id": 1, "cliente": { "id": 1, "nome": "Mateus Bruno" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "10/10/2025" },
+  {"id": 2, "cliente": { "id": 2, "nome": "Pedro Fonseca" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "11/10/2025" }
 ]
 
 
