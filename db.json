@@ -1,23 +1,23 @@
 {
     "aulas": [
-        {"id": 1, "nome": "Dança", "funcionario": {"id": 1, "nome": "Carlos Matos"}, "data": "25/11/2025", "horario": "15:30", "status": "Ativo"},
-        {"id": 2, "nome": "Spinning", "funcionario": {"id": 2, "nome": "Marina Silva"}, "data": "26/11/2025", "horario": "10:00", "status": "Ativo"}
+        {"id": 1, "nome": "Dança", "funcionario": {"id": 1, "nome": "Carlos Matos"}, "data": "25/11/2025", "horario": "15:30", "status": "Ativo", "capacidade": "10", "equipamentos": { "id": 1, "nome": "Esteira"}, "clientes": { "id": 1, "nome": "cliente 1"} ,"descricao": "descricao da aula"},
+        {"id": 2, "nome": "Spinning", "funcionario": {"id": 2, "nome": "Marina Silva"}, "data": "26/11/2025", "horario": "10:00", "status": "Ativo", "capacidade": "10", "equipamentos": { "id": 2, "nome": "Bicicleta Ergométrica"}, "clientes": { "id": 2, "nome": "cliente 2"} ,"descricao": "descricao da aula"}
     ],
 
     "equipamentos": [
-        {"id": 1, "nome": "Esteira", "modelo": "ProFit X200", "ultmanutencao": "10/09/2025", "disponivel": "sim", "local": "sala de musculação"},
-        {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "05/08/2025", "disponivel": "não", "local": "sala de manutenção"}
+        {"id": 1, "nome": "Esteira", "modelo": "ProFit X200", "ultmanutencao": "10/09/2025", "quantidade": "5", "disponivel": "sim", "local": "sala de musculação"},
+        {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "05/08/2025", "quantidade": "3", "disponivel": "não", "local": "sala de manutenção"}
     ],
 
    "faturas": [
-  {"id": 1, "cliente": { "id": 1, "nome": "Mateus Bruno" }, "idplano": 2, "datavencimento": "10/10/2025", "datapagamento": "09/10/2025", "ematraso": "não", "diasatraso": 0, "multa": 0.00},
-  {"id": 2, "cliente": { "id": 2, "nome": "Pedro Fonseca" }, "idplano": 1, "datavencimento": "05/10/2025", "datapagamento": "10/10/2025", "ematraso": "sim", "diasatraso": 5, "multa": 25.00}
+  {"id": 1, "cliente": { "id": 1, "nome": "Mateus Bruno" }, "idplano": {"id": 1, "nome": "plano@01"}, "datavencimento": "10/10/2025", "datapagamento": "09/10/2025", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": {"id": 1, "nome": "cartao"}, "idajustesfinanceiros": {"id": 1, "nome":"ajuste1"}},
+  {"id": 2, "cliente": { "id": 2, "nome": "Pedro Fonseca" }, "idplano": {"id": 2, "nome": "plano@02"}, "datavencimento": "05/10/2025", "datapagamento": "10/10/2025", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": {"id": 2, "nome": "dinheiro"}, "idajustesfinanceiros": {"id": 2, "nome":"ajuste2"}}
 ],
 
 
    "treinos": [
-  {"id": 1, "cliente": { "id": 1, "nome": "Mateus Bruno" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "10/10/2025" },
-  {"id": 2, "cliente": { "id": 2, "nome": "Pedro Fonseca" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "11/10/2025" }
+  {"id": 1, "nome": "Treino A", "cliente": { "id": 1, "nome": "Mateus Bruno" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "10/10/2025", "descricao": "objetivo do aluno e observações", "exercicios": {"id": 1, "nome": "tríceps banco"}, "series": "3", "repeticoes": "10", "carga": "5" },
+  {"id": 2, "nome": "Treino B", "cliente": { "id": 2, "nome": "Pedro Fonseca" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "11/10/2025", "descricao": "objetivo do aluno e observações", "exercicios": {"id": 2, "nome": "tríceps corda"}, "series": "6", "repeticoes": "15", "carga": "3" }
 ]
 
 
