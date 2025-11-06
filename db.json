@@ -5,8 +5,8 @@
     ],
 
     "equipamentos": [
-        {"id": 1, "nome": "Esteira", "modelo": "ProFit X200", "ultmanutencao": "10/09/2025", "quantidade": "5", "disponivel": "sim", "local": "sala de musculação"},
-        {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "05/08/2025", "quantidade": "3", "disponivel": "não", "local": "sala de manutenção"}
+        {"id": 1, "nome": "Esteira", "modelo": "ProFit X200", "ultmanutencao": "10/09/2025", "quantidade": "5", "disponivel": "sim", "local": "sala de musculação", "descricao": "equipamento com ..."},
+        {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "05/08/2025", "quantidade": "3", "disponivel": "não", "local": "sala de manutenção", "descricao": "equipamento com ..."}
     ],
 
    "faturas": [
