@@ -15,35 +15,35 @@
 ],
 
 
- {
+{
   "treinos": [
     {
       "id": 1,
-      "nome": "Peito e Tríceps",
+      "nome": "", 
       "cliente": { "id": 1, "nome": "Mateus Bruno" },
       "funcionario": { "id": 2, "nome": "Carlos Silva" },
       "datatreino": "10/10/2025",
-      "descricao": "Treino focado em fortalecimento e definição do peitoral e tríceps.",
-      "exercicios": [
-        { "id": 1, "nome": "Supino Reto", "series": "4", "repeticoes": "10", "carga": "30" },
-        { "id": 2, "nome": "Crucifixo Inclinado", "series": "3", "repeticoes": "12", "carga": "18" },
-        { "id": 3, "nome": "Tríceps Banco", "series": "3", "repeticoes": "10", "carga": "5" }
-      ]
+      "descricao": "objetivo do aluno e observações",
+      "exercicios": { "id": 1, "nome": "Tríceps Banco" },
+      "series": "3",
+      "repeticoes": "10",
+      "carga": "5"
     },
     {
       "id": 2,
-      "nome": "Pernas e Ombros",
+      "nome": "",
       "cliente": { "id": 2, "nome": "Pedro Fonseca" },
       "funcionario": { "id": 2, "nome": "Carlos Silva" },
       "datatreino": "11/10/2025",
-      "descricao": "Treino de força com foco em quadríceps, posterior e deltoides.",
-      "exercicios": [
-        { "id": 4, "nome": "Agachamento Livre", "series": "4", "repeticoes": "8", "carga": "60" },
-        { "id": 5, "nome": "Cadeira Extensora", "series": "3", "repeticoes": "15", "carga": "30" },
-        { "id": 6, "nome": "Desenvolvimento com Halteres", "series": "3", "repeticoes": "10", "carga": "12" }
-      ]
+      "descricao": "objetivo do aluno e observações",
+      "exercicios": { "id": 2, "nome": "Tríceps Corda" },
+      "series": "6",
+      "repeticoes": "15",
+      "carga": "3"
     }
   ]
+}
+
 }
 
 
