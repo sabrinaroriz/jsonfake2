@@ -20,4 +20,3 @@
   {"id": 2, "nome": "Treino B", "cliente": { "id": 2, "nome": "Pedro Fonseca" }, "funcionario": { "id": 2, "nome": "Carlos Silva" }, "datatreino": "11/10/2025", "descricao": "objetivo do aluno e observações", "exercicios": {"id": 2, "nome": "tríceps corda"}, "series": "6", "repeticoes": "15", "carga": "3" }
 ]
 
-]
