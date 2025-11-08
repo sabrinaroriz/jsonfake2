@@ -20,11 +20,17 @@
       "nome": "Treino A",
       "cliente": { "id": 1, "nome": "Mateus Bruno" },
       "funcionario": { "id": 2, "nome": "Carlos Silva" },
-      "datatrocaficha": "10/10/2025",
-      "descricao": "Objetivo do aluno e observações",
-      "exercicios": [
-        { "id": 1, "nome": "Rosca Direta", "series": "3", "repeticoes": "12", "carga": "8" },
-        { "id": 2, "nome": "Tríceps Banco", "series": "3", "repeticoes": "10", "carga": "5" }
+      "dataregistroficha": "11/10/2025",
+      "descricao": "objetivo do aluno e observações",
+      "exercicios": { "id": 1, "nome": "supino reto" },
+      "series": "4",
+      "repeticoes": "12",
+      "carga": "30",
+      "historicoFichas": [
+        {
+          "dataregistroficha": "10/08/2025",
+          "descricao": "ficha anterior do aluno"
+        }
       ]
     },
     {
@@ -32,10 +38,17 @@
       "nome": "Treino B",
       "cliente": { "id": 2, "nome": "Pedro Fonseca" },
       "funcionario": { "id": 2, "nome": "Carlos Silva" },
-      "datatrocaficha": "11/10/2025",
+      "dataregistroficha": "11/10/2025",
       "descricao": "objetivo do aluno e observações",
-      "exercicios": [
-        { "id": 2, "nome": "Tríceps Corda", "series": "6", "repeticoes": "15", "carga": "3" }
+      "exercicios": { "id": 2, "nome": "tríceps corda" },
+      "series": "6",
+      "repeticoes": "15",
+      "carga": "3",
+      "historicoFichas": [
+        {
+          "dataregistroficha": "05/09/2025",
+          "descricao": "primeira ficha do aluno"
+        }
       ]
     }
   ]
