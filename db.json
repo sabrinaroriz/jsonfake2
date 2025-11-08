@@ -20,7 +20,7 @@
       "nome": "Treino A",
       "cliente": { "id": 1, "nome": "Mateus Bruno" },
       "funcionario": { "id": 2, "nome": "Carlos Silva" },
-      "datatreino": "10/10/2025",
+      "datatrocaficha": "10/10/2025",
       "descricao": "Objetivo do aluno e observações",
       "exercicios": [
         { "id": 1, "nome": "Rosca Direta", "series": "3", "repeticoes": "12", "carga": "8" },
@@ -32,7 +32,7 @@
       "nome": "Treino B",
       "cliente": { "id": 2, "nome": "Pedro Fonseca" },
       "funcionario": { "id": 2, "nome": "Carlos Silva" },
-      "datatreino": "11/10/2025",
+      "datatrocaficha": "11/10/2025",
       "descricao": "objetivo do aluno e observações",
       "exercicios": [
         { "id": 2, "nome": "Tríceps Corda", "series": "6", "repeticoes": "15", "carga": "3" }
