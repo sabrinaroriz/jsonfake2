@@ -15,15 +15,18 @@
 ],
 
 {
-  "id": 1,
-  "nome": "Treino A",
-  "cliente": { "id": 1, "nome": "Mateus Bruno" },
-  "funcionario": { "id": 2, "nome": "Carlos Silva" },
-  "datatreino": "10/10/2025",
-  "descricao": "Objetivo do aluno e observações",
-  "exercicios": [
-    { "id": 1, "nome": "Tríceps Banco", "series": "3", "repeticoes": "10", "carga": "5" },
-    { "id": 2, "nome": "Rosca Direta", "series": "3", "repeticoes": "12", "carga": "8" }
+  "treinos": [
+    {
+      "id": 1,
+      "nome": "Treino A",
+      "cliente": { "id": 1, "nome": "Mateus Bruno" },
+      "funcionario": { "id": 2, "nome": "Carlos Silva" },
+      "datatreino": "10/10/2025",
+      "descricao": "Objetivo do aluno e observações",
+      "exercicios": [
+        { "id": 1, "nome": "Rosca Direta", "series": "3", "repeticoes": "12", "carga": "8" },
+        { "id": 2, "nome": "Tríceps Banco", "series": "3", "repeticoes": "10", "carga": "5" }
+      ]
+    }
   ]
 }
-
