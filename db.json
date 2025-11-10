@@ -1,7 +1,7 @@
 {
   "aulas": [
-    {"id": 1, "nome": "Dança", "funcionario": {"id": 1, "nome": "Carlos Matos"}, "data": "25/11/2025", "horario": "15:30", "status": "Ativo", "capacidade": "10", "equipamentos": { "id": 1, "nome": "Esteira"}, "clientes": { "id": 1, "nome": "cliente 1"} ,"descricao": "descricao da aula"},
-    {"id": 2, "nome": "Spinning", "funcionario": {"id": 2, "nome": "Marina Silva"}, "data": "26/11/2025", "horario": "10:00", "status": "Ativo", "capacidade": "10", "equipamentos": { "id": 2, "nome": "Bicicleta Ergométrica"}, "clientes": { "id": 2, "nome": "cliente 2"} ,"descricao": "descricao da aula"}
+    {"id": 1, "nome": "Dança", "funcionario": {"id": 1, "nome": "Carlos Matos"}, "data": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "equipamentos": { "id": 1, "nome": "Esteira"}, "clientes": { "id": 1, "nome": "cliente 1"} ,"descricao": "descricao da aula"},
+    {"id": 2, "nome": "Spinning", "funcionario": {"id": 2, "nome": "Marina Silva"}, "data": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "equipamentos": { "id": 2, "nome": "Bicicleta Ergométrica"}, "clientes": { "id": 2, "nome": "cliente 2"} ,"descricao": "descricao da aula"}
   ],
 
   "equipamentos": [
