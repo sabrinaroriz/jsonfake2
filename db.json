@@ -10,8 +10,8 @@
   ],
 
   "faturas": [
-    {"id": 1, "idcliente": { "id": 1, "nome": "Mateus Bruno" }, "idplano": {"id": 1, "nome": "plano@01"}, "datavencimento": "10/10/2025", "datapagamento": "09/10/2025", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": {"id": 1, "nome": "cartao"}, "idajustesfinanceiros": {"id": 1, "nome":"ajuste1"}},
-    {"id": 2, "idcliente": { "id": 2, "nome": "Pedro Fonseca" }, "idplano": {"id": 2, "nome": "plano@02"}, "datavencimento": "05/10/2025", "datapagamento": "10/10/2025", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": {"id": 2, "nome": "dinheiro"}, "idajustesfinanceiros": {"id": 2, "nome":"ajuste2"}}
+    {"id": 1, "idcliente": { "id": 1, "nome": "Mateus Bruno" }, "idplano": {"id": 1, "nome": "plano@01"}, "datavencimento": "2025-10-10", "datapagamento": "09/10/2025", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": {"id": 1, "nome": "cartao"}, "idajustesfinanceiros": {"id": 1, "nome":"ajuste1"}},
+    {"id": 2, "idcliente": { "id": 2, "nome": "Pedro Fonseca" }, "idplano": {"id": 2, "nome": "plano@02"}, "datavencimento": "2025-10-05", "datapagamento": "10/10/2025", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": {"id": 2, "nome": "dinheiro"}, "idajustesfinanceiros": {"id": 2, "nome":"ajuste2"}}
   ],
 
   "treinos": [
