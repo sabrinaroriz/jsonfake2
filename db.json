@@ -14,24 +14,4 @@
     {"id": 2, "idcliente": 2, "idplano": 2, "datavencimento": "2025-10-05", "datapagamento": "2025-10-10", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": 2, "idajustesfinanceiros": 2}
   ],
 
-  "treinos": [
-    {
-      "id": 1,
-      "nome": "Treino A",
-      "idcliente": 1,
-      "idfuncionario":2,
-      "dataregistroficha": "2025-10-11",
-      "descricao": "objetivo do aluno e observações",
-      "idexercicios": 1
-    },
-    {
-      "id": 2,
-      "nome": "Treino B",
-      "idcliente": 2,
-      "idfuncionario": 2,
-      "dataregistroficha": "2025-11-10",
-      "descricao": "objetivo do aluno e observações",
-      "idexercicios": 1
-      }
-  ]
 }
