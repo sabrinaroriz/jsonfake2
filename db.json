@@ -1,8 +1,8 @@
 
 {
   "aulas": [
-    {"id": 1, "nome": "Dança", "idfuncionario": {"id": 1, "nome": "Carlos Matos"}, "data": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "idequipamentos": { "id": 1, "nome": "Esteira"}, "quantidadeEquipamentoUtilizado": "10", "idclientes": { "id": 1, "nome": "cliente 1"} ,"descricao": "descricao da aula"},
-    {"id": 2, "nome": "Spinning", "idfuncionario": {"id": 2, "nome": "Marina Silva"}, "data": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "idequipamentos": { "id": 2, "nome": "Bicicleta Ergométrica"}, "quantidadeEquipamentoUtilizado": "10", "idclientes": { "id": 2, "nome": "cliente 2"} ,"descricao": "descricao da aula"}
+    {"id": 1, "nome": "Dança", "idfuncionario": 1, "data": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "idequipamentos": 1, "quantidadeEquipamentoUtilizado": "10", "idclientes": 1,"descricao": "descricao da aula"},
+    {"id": 2, "nome": "Spinning", "idfuncionario": 2, "data": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "idequipamentos":2, "quantidadeEquipamentoUtilizado": "10", "idclientes": 2 ,"descricao": "descricao da aula"}
   ],
 
   "equipamentos": [
