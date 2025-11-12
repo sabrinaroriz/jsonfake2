@@ -22,10 +22,9 @@
       "idfuncionario":2,
       "dataregistroficha": "2025-10-11",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": 1,
-      "series": "4",
-      "repeticoes": "12",
-      "carga": "30",
+      "idexercicios": [
+        {  1, "series": "4","repeticoes": "12","carga": "30" }
+      ]
     },
     {
       "id": 2,
@@ -34,10 +33,9 @@
       "idfuncionario": 2,
       "dataregistroficha": "2025-11-10",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": 2,
-      "series": "6",
-      "repeticoes": "15",
-      "carga": "3",
+      "idexercicios": [
+        {2,"series": "6","repeticoes": "15","carga": "3"}
+      ]
       }
   ]
 }
