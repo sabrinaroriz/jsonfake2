@@ -1,7 +1,7 @@
 {
   "aulas": [
-    {"id": 1, "nome": "Dança", "idfuncionario": 1, "data": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "idequipamentos": 1, "quantidadeEquipamentoUtilizado": "10", "idclientes": [1],"descricao": "descricao da aula"},
-    {"id": 2, "nome": "Spinning", "idfuncionario": 1, "data": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "idequipamentos": 2, "quantidadeEquipamentoUtilizado": "10", "idclientes": [1,2],"descricao": "descricao da aula"}
+    {"id": 1, "nome": "Dança", "idfuncionario": 1, "data": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "idequipamentos": 1, "quantidadeEquipamentoUtilizado": "10", "idclientes": 1,"descricao": "descricao da aula"},
+    {"id": 2, "nome": "Spinning", "idfuncionario": 1, "data": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "idequipamentos": 2, "quantidadeEquipamentoUtilizado": "10", "idclientes": 2,"descricao": "descricao da aula"}
   ],
 
   "equipamentos": [
@@ -22,7 +22,7 @@
       "idfuncionario":2,
       "dataregistroficha": "2025-10-11",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": [1],
+      "idexercicios": 1,
       "series": "4",
       "repeticoes": "12",
       "carga": "30",
@@ -34,7 +34,7 @@
       "idfuncionario": 2,
       "dataregistroficha": "2025-11-10",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": [2],
+      "idexercicios": 2,
       "series": "6",
       "repeticoes": "15",
       "carga": "3",
