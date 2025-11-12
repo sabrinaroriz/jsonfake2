@@ -1,18 +1,18 @@
 
 {
   "aulas": [
-    {"id": 1, "nome": "Dança", "idfuncionario": 1, "dataAula": "25-11-2025", "horario": "15:30", "status": "Ativo", "capacidade": "10", "equipamentos": [{"idequipamento": 1, "quantidade": 10},{"idequipamento": 2, "quantidade": 15}], "clientes": [{"idcliente": 1}, {"idcliente": 2}],"descricao": "descricao da aula"},
-    {"id": 2, "nome": "Spinning", "idfuncionario": 2, "dataAula": "26-11-2025", "horario": "10:00", "status": "Ativo", "capacidade": "10", "equipamentos": [{"idequipamento": 1, "quantidade": 10},{"idequipamento": 2, "quantidade": 15}], "clientes": [{"idcliente": 1}, {"idcliente": 2}] ,"descricao": "descricao da aula"}
+    {"id": 1, "nome": "Dança", "idfuncionario": 1, "dataAula": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "equipamentos": [{"idequipamento": 1, "quantidade": 10},{"idequipamento": 2, "quantidade": 15}], "clientes": [{"idcliente": 1}, {"idcliente": 2}],"descricao": "descricao da aula"},
+    {"id": 2, "nome": "Spinning", "idfuncionario": 2, "dataAula": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "equipamentos": [{"idequipamento": 1, "quantidade": 10},{"idequipamento": 2, "quantidade": 15}], "clientes": [{"idcliente": 1}, {"idcliente": 2}] ,"descricao": "descricao da aula"}
   ],
 
   "equipamentos": [
-    {"id": 1, "nome": "Esteira", "modelo": "ProFit X200", "ultmanutencao": "17-09-2025", "quantidade": "5", "disponivel": "sim", "local": "sala de musculação", "descricao": "equipamento com ..."},
-    {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "05-08-2025", "quantidade": "3", "disponivel": "não", "local": "sala de manutenção", "descricao": "equipamento com ..."}
+    {"id": 1, "nome": "Esteira", "modelo": "ProFit X200", "ultmanutencao": "2025-09-17", "quantidade": "5", "disponivel": "sim", "local": "sala de musculação", "descricao": "equipamento com ..."},
+    {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "2025-08-05", "quantidade": "3", "disponivel": "não", "local": "sala de manutenção", "descricao": "equipamento com ..."}
   ],
 
   "faturas": [
-    {"id": 1, "idcliente": 1, "idplano": 1, "datavencimento": "10-10-2025", "datapagamento": "10-09-2025", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": 1, "idajustesfinanceiros": {"id": 1, "nome":"ajuste1"}},
-    {"id": 2, "idcliente": 2, "idplano": 2, "datavencimento": "05-10-2025", "datapagamento": "10-10-2025", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": 2, "idajustesfinanceiros": {"id": 2, "nome":"ajuste2"}}
+    {"id": 1, "idcliente": 1, "idplano": 1, "datavencimento": "10-10-2025", "datapagamento": "2025-09-10", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": 1, "idajustesfinanceiros": {"id": 1, "nome":"ajuste1"}},
+    {"id": 2, "idcliente": 2, "idplano": 2, "datavencimento": "05-10-2025", "datapagamento": "2025-10-10", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": 2, "idajustesfinanceiros": {"id": 2, "nome":"ajuste2"}}
   ],
 
   "treinos": [
@@ -21,7 +21,7 @@
       "nome": "Treino A",
       "idcliente": 1,
       "idfuncionario": 2,
-      "dataregistroficha": "7-11-2025",
+      "dataregistroficha": "2025-11-07",
       "descricao": "objetivo do aluno e observações",
       "idexercicios": 1,
       "series": "4",
@@ -33,7 +33,7 @@
       "nome": "Treino B",
       "idcliente": 1,
       "idfuncionario": 2,
-      "dataregistroficha": "23-09-2025",
+      "dataregistroficha": "2025-09-23",
       "descricao": "objetivo do aluno e observações",
       "idexercicios": 2,
       "series": "6",
