@@ -19,38 +19,26 @@
     {
       "id": 1,
       "nome": "Treino A",
-      "idcliente": { "id": 1, "nome": "Mateus Bruno" },
-      "idfuncionario": { "id": 2, "nome": "Carlos Silva" },
+      "idcliente": 1,
+      "idfuncionario": 2,
       "dataregistroficha": "2025-10-11",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": { "id": 1, "nome": "supino reto" },
+      "idexercicios": 1,
       "series": "4",
       "repeticoes": "12",
-      "carga": "30",
-      "historicoFichas": [
-        {
-          "dataregistroficha": "10/08/2025",
-          "descricao": "ficha anterior do aluno"
-        }
-      ]
+      "carga": "30"
     },
     {
       "id": 2,
       "nome": "Treino B",
-      "idcliente": { "id": 2, "nome": "Pedro Fonseca" },
-      "idfuncionario": { "id": 2, "nome": "Carlos Silva" },
+      "idcliente": 1,
+      "idfuncionario": 2,
       "dataregistroficha": "2025-11-10",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": { "id": 2, "nome": "tríceps corda" },
+      "idexercicios": 2,
       "series": "6",
       "repeticoes": "15",
-      "carga": "3",
-      "historicoFichas": [
-        {
-          "dataregistroficha": "05/09/2025",
-          "descricao": "primeira ficha do aluno"
-        }
-      ]
+      "carga": "3"
     }
   ]
 }
