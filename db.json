@@ -1,7 +1,7 @@
 {
   "aulas": [
-    {"id": 1, "nome": "Dança", "idfuncionario": {"id": 1, "nome": "Carlos Matos"}, "data": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "idequipamentos": { "id": 1, "nome": "Esteira"}, "quantidadeEquipamentoUtilizado": "10", "idclientes": { "id": 1, "nome": "cliente 1"} ,"descricao": "descricao da aula"},
-    {"id": 2, "nome": "Spinning", "idfuncionario": {"id": 2, "nome": "Marina Silva"}, "data": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "idequipamentos": { "id": 2, "nome": "Bicicleta Ergométrica"}, "quantidadeEquipamentoUtilizado": "10", "idclientes": { "id": 2, "nome": "cliente 2"} ,"descricao": "descricao da aula"}
+    {"id": 1, "nome": "Dança", "idfuncionario": 1, "data": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "idequipamentos": 1, "quantidadeEquipamentoUtilizado": "10", "idclientes": [1],"descricao": "descricao da aula"},
+    {"id": 2, "nome": "Spinning", "idfuncionario": 1, "data": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "idequipamentos": 2, "quantidadeEquipamentoUtilizado": "10", "idclientes": [1,2],"descricao": "descricao da aula"}
   ],
 
   "equipamentos": [
@@ -10,46 +10,34 @@
   ],
 
   "faturas": [
-    {"id": 1, "idcliente": { "id": 1, "nome": "Mateus Bruno" }, "idplano": {"id": 1, "nome": "plano@01"}, "datavencimento": "2025-10-10", "datapagamento": "2025-09-10", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": {"id": 1, "nome": "cartao"}, "idajustesfinanceiros": {"id": 1, "nome":"ajuste1"}},
-    {"id": 2, "idcliente": { "id": 2, "nome": "Pedro Fonseca" }, "idplano": {"id": 2, "nome": "plano@02"}, "datavencimento": "2025-10-05", "datapagamento": "2025-10-10", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": {"id": 2, "nome": "dinheiro"}, "idajustesfinanceiros": {"id": 2, "nome":"ajuste2"}}
+    {"id": 1, "idcliente": 1, "idplano": 1, "datavencimento": "2025-10-10", "datapagamento": "2025-09-10", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": 1, "idajustesfinanceiros": [1]},
+    {"id": 2, "idcliente": !, "idplano": 2, "datavencimento": "2025-10-05", "datapagamento": "2025-10-10", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": 2, "idajustesfinanceiros": [2]}
   ],
 
   "treinos": [
     {
       "id": 1,
       "nome": "Treino A",
-      "idcliente": { "id": 1, "nome": "Mateus Bruno" },
-      "idfuncionario": { "id": 2, "nome": "Carlos Silva" },
+      "idcliente": 1,
+      "idfuncionario":2,
       "dataregistroficha": "2025-10-11",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": { "id": 1, "nome": "supino reto" },
+      "idexercicios": [1],
       "series": "4",
       "repeticoes": "12",
       "carga": "30",
-      "historicoFichas": [
-        {
-          "dataregistroficha": "10/08/2025",
-          "descricao": "ficha anterior do aluno"
-        }
-      ]
     },
     {
       "id": 2,
       "nome": "Treino B",
-      "idcliente": { "id": 2, "nome": "Pedro Fonseca" },
-      "idfuncionario": { "id": 2, "nome": "Carlos Silva" },
+      "idcliente": 2,
+      "idfuncionario": 2,
       "dataregistroficha": "2025-11-10",
       "descricao": "objetivo do aluno e observações",
-      "idexercicios": { "id": 2, "nome": "tríceps corda" },
+      "idexercicios": [2],
       "series": "6",
       "repeticoes": "15",
       "carga": "3",
-      "historicoFichas": [
-        {
-          "dataregistroficha": "05/09/2025",
-          "descricao": "primeira ficha do aluno"
-        }
-      ]
-    }
+      }
   ]
 }
