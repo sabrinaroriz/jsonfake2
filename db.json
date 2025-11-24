@@ -1,8 +1,8 @@
 
 {
   "aulas": [
-    {"id": 1, "nome": "Dança", "idfuncionario": 1, "dataAula": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "equipamentos": [{"idequipamento": 1, "quantidade": 10},{"idequipamento": 2, "quantidade": 15}], "clientes": [{"idcliente": 1}, {"idcliente": 2}],"descricao": "descricao da aula"},
-    {"id": 2, "nome": "Spinning", "idfuncionario": 2, "dataAula": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "equipamentos": [{"idequipamento": 1, "quantidade": 10},{"idequipamento": 2, "quantidade": 15}], "clientes": [{"idcliente": 1}, {"idcliente": 2}] ,"descricao": "descricao da aula"}
+    {"id": 1, "nome": "Dança", "idfuncionario": 1, "dataAula": "2025-11-25", "horario": "15:30", "status": "Ativo", "capacidade": "10", "clientes": [{"idcliente": 1}, {"idcliente": 2}],"descricao": "descricao da aula"},
+    {"id": 2, "nome": "Spinning", "idfuncionario": 2, "dataAula": "2025-11-26", "horario": "10:00", "status": "Ativo", "capacidade": "10", "clientes": [{"idcliente": 1}, {"idcliente": 2}] ,"descricao": "descricao da aula"}
   ],
 
   "equipamentos": [
