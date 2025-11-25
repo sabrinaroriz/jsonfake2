@@ -22,7 +22,7 @@
       "idcliente": 1,
       "idfuncionario": 2,
       "dataregistroficha": "2025-11-07",
-      "descricao": "objetivo do aluno e observações",
+      "descricao": "objetivo do aluno e observações"
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "idcliente": 1,
       "idfuncionario": 2,
       "dataregistroficha": "2025-09-23",
-      "descricao": "objetivo do aluno e observações",
+      "descricao": "objetivo do aluno e observações"
     }
   ]
 }
