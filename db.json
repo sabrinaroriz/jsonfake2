@@ -11,7 +11,7 @@
   ],
 
   "faturas": [
-    {"id": 1, "idcliente": 1, "idplano": 1, "datavencimento": "2025-10-10", "datapagamento": "2025-09-10", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": 1, "ajustesfinanceiros": [{"idajustefinanceiro": 1}, {"idajustefinanceiro": 2}]},-
+    {"id": 1, "idcliente": 1, "idplano": 1, "datavencimento": "2025-10-10", "datapagamento": "2025-09-10", "ematraso": "não", "diasatraso": 0, "multa": 0.00, "idformaspagamento": 1, "ajustesfinanceiros": [{"idajustefinanceiro": 1}, {"idajustefinanceiro": 2}]},
     {"id": 2, "idcliente": 2, "idplano": 2, "datavencimento": "2025-10-05", "datapagamento": "2025-10-10", "ematraso": "sim", "diasatraso": 5, "multa": 25.00, "idformaspagamento": 2, "ajustesfinanceiros": [{"idajustefinanceiro": 2}] }
   ],
 
