@@ -1,4 +1,3 @@
-
 {
   "aulas": [
     {
@@ -21,18 +20,55 @@
       "capacidade": 15,
       "descricao": "Treino funcional com pesos"
     }
-  ]
-}
-],
+  ],
 
   "equipamentos": [
-    {"id": 1, "nome": "Esteira", "modelo": "ProFit X200", "ultmanutencao": "2025-09-17", "quantidade": "5", "disponivel": "sim", "local": "sala de musculação", "descricao": "equipamento com ..."},
-    {"id": 2, "nome": "Bicicleta Ergométrica", "modelo": "SpinMaster 500", "ultmanutencao": "2025-08-05", "quantidade": "3", "disponivel": "não", "local": "sala de manutenção", "descricao": "equipamento com ..."}
+    {
+      "id": 1,
+      "nome": "Esteira",
+      "modelo": "ProFit X200",
+      "ultmanutencao": "2025-09-17",
+      "quantidade": "5",
+      "disponivel": "sim",
+      "local": "sala de musculação",
+      "descricao": "equipamento com ..."
+    },
+    {
+      "id": 2,
+      "nome": "Bicicleta Ergométrica",
+      "modelo": "SpinMaster 500",
+      "ultmanutencao": "2025-08-05",
+      "quantidade": "3",
+      "disponivel": "não",
+      "local": "sala de manutenção",
+      "descricao": "equipamento com ..."
+    }
   ],
 
   "faturas": [
-    {"id": 1, "idcliente": 1, "idplano": 1, "datavencimento": "2025-10-10", "datapagamento": "2025-09-10", "idformaspagamento": 1, "ajustesfinanceiros": [{"idajustefinanceiro": 1}, {"idajustefinanceiro": 2}]},
-    {"id": 2, "idcliente": 2, "idplano": 2, "datavencimento": "2025-10-05", "datapagamento": "2025-10-10", "idformaspagamento": 2, "ajustesfinanceiros": [{"idajustefinanceiro": 2}] }
+    {
+      "id": 1,
+      "idcliente": 1,
+      "idplano": 1,
+      "datavencimento": "2025-10-10",
+      "datapagamento": "2025-09-10",
+      "idformaspagamento": 1,
+      "ajustesfinanceiros": [
+        { "idajustefinanceiro": 1 },
+        { "idajustefinanceiro": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "idcliente": 2,
+      "idplano": 2,
+      "datavencimento": "2025-10-05",
+      "datapagamento": "2025-10-10",
+      "idformaspagamento": 2,
+      "ajustesfinanceiros": [
+        { "idajustefinanceiro": 2 }
+      ]
+    }
   ],
 
   "treinos": [
