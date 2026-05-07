@@ -29,7 +29,7 @@
       "modelo": "ProFit X200",
       "ultmanutencao": "2025-09-17",
       "quantidade": "5",
-      "disponivel": "sim",
+      "disponivel": true,
       "local": "sala de musculação",
       "descricao": "equipamento com ..."
     },
@@ -37,9 +37,9 @@
       "id": 2,
       "nome": "Bicicleta Ergométrica",
       "modelo": "SpinMaster 500",
-      "ultmanutencao": "2025-08-05",
+      "ultManutencao": "2025-08-05",
       "quantidade": "3",
-      "disponivel": "não",
+      "disponivel": false,
       "local": "sala de manutenção",
       "descricao": "equipamento com ..."
     }
