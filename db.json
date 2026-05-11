@@ -6,7 +6,7 @@
       "idFuncionario": 1,
       "dataAula": "2025-12-15",
       "horaAula": "18:00",
-      "status": "Ativo",
+      "status": "True",
       "capacidade": 20,
       "descricao": "Aula intensa de bicicleta"
     },
@@ -16,7 +16,7 @@
       "idFuncionario": 2,
       "dataAula": "2025-12-16",
       "horaAula": "19:30",
-      "status": "Ativo",
+      "status": "True",
       "capacidade": 15,
       "descricao": "Treino funcional com pesos"
     }
