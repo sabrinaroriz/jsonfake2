@@ -27,7 +27,7 @@
       "id": 1,
       "nome": "Esteira",
       "modelo": "ProFit X200",
-      "ultmanutencao": "2025-09-17",
+      "ultManutencao": "2025-09-17",
       "quantidade": "5",
       "disponivel": true,
       "local": "sala de musculação",
@@ -48,17 +48,17 @@
   "faturas": [
     {
       "id": 1,
-      "idcliente": 1,
-      "datavencimento": "2025-10-10",
-      "datapagamento": "2025-09-10",
-      "idformaspagamento": 1,
+      "idCliente": 1,
+      "dataVencimento": "2025-10-10",
+      "dataPagamento": "2025-09-10",
+      "idFormaPagamento": 1,
     },
     {
       "id": 2,
-      "idcliente": 2,
-      "datavencimento": "2025-10-05",
-      "datapagamento": "2025-10-10",
-      "idformaspagamento": 2,
+      "idCliente": 2,
+      "dataVencimento": "2025-10-05",
+      "dataPagamento": "2025-10-10",
+      "idFormaPagamento": 2,
     }
   ],
 
@@ -66,17 +66,17 @@
     {
       "id": 1,
       "nome": "Treino A",
-      "idcliente": 1,
-      "idfuncionario": 2,
-      "dataregistroficha": "2025-11-07",
+      "idCliente": 1,
+      "idFuncionario": 2,
+      "data": "2025-11-07",
       "descricao": "objetivo do aluno e observações"
     },
     {
       "id": 2,
       "nome": "Treino B",
-      "idcliente": 1,
-      "idfuncionario": 2,
-      "dataregistroficha": "2025-09-23",
+      "idCliente": 1,
+      "idFuncionario": 2,
+      "data": "2025-09-23",
       "descricao": "objetivo do aluno e observações"
     }
   ]
