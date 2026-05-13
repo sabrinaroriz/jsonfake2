@@ -51,14 +51,14 @@
       "idCliente": 1,
       "dataVencimento": "2025-10-10",
       "dataPagamento": "2025-09-10",
-      "idFormaPagamento": 1,
+      "idFormaPagamento": 1
     },
     {
       "id": 2,
       "idCliente": 2,
       "dataVencimento": "2025-10-05",
       "dataPagamento": "2025-10-10",
-      "idFormaPagamento": 2,
+      "idFormaPagamento": 2
     }
   ],
 
