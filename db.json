@@ -28,7 +28,7 @@
       "nome": "Esteira",
       "modelo": "ProFit X200",
       "ultManutencao": "2025-09-17",
-      "quantidade": "5",
+      "quantidade": 5,
       "disponivel": true,
       "local": "sala de musculação",
       "descricao": "equipamento com ..."
@@ -38,7 +38,7 @@
       "nome": "Bicicleta Ergométrica",
       "modelo": "SpinMaster 500",
       "ultManutencao": "2025-08-05",
-      "quantidade": "3",
+      "quantidade": 3,
       "disponivel": false,
       "local": "sala de manutenção",
       "descricao": "equipamento com ..."
